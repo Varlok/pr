@@ -1,0 +1,17 @@
+[Wed Feb 19 17:09:32.987334 2014] [:error] [pid 4623] [client 127.0.0.1:43915] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:11:09.880279 2014] [:error] [pid 4625] [client 127.0.0.1:43919] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:12:13.937596 2014] [:error] [pid 4627] [client 127.0.0.1:43921] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:13:15.877796 2014] [:error] [pid 4621] [client 127.0.0.1:43923] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:13:36.052595 2014] [:error] [pid 4624] [client 127.0.0.1:43925] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:14:08.027940 2014] [:error] [pid 4622] [client 127.0.0.1:43927] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:14:12.607915 2014] [:error] [pid 4621] [client 127.0.0.1:43928] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:14:45.535528 2014] [:error] [pid 4624] [client 127.0.0.1:43930] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:20:55.640785 2014] [:error] [pid 4621] [client 127.0.0.1:43975] script '/home/varlok/Apache/host2/api_autorize.php' not found or unable to stat
+[Wed Feb 19 17:21:51.678383 2014] [:error] [pid 4627] [client 127.0.0.1:43976] script '/home/varlok/Apache/host2/apt_autorize.php' not found or unable to stat
+[Wed Feb 19 17:22:05.973309 2014] [:error] [pid 4624] [client 127.0.0.1:43977] script '/home/varlok/Apache/host2/apt_autorie.php' not found or unable to stat
+[Wed Feb 19 17:22:14.950831 2014] [:error] [pid 4625] [client 127.0.0.1:43979] PHP Notice:  Undefined index: login in /home/varlok/Apache/host2/api_autorie.php on line 2
+[Wed Feb 19 17:22:14.950986 2014] [:error] [pid 4625] [client 127.0.0.1:43979] PHP Notice:  Undefined index: pass in /home/varlok/Apache/host2/api_autorie.php on line 3
+[Wed Feb 19 18:24:07.968253 2014] [:error] [pid 4624] [client 127.0.0.1:44205] script '/home/varlok/Apache/host2/apt_get_user.php' not found or unable to stat
+[Wed Feb 19 19:07:18.817078 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Wed Feb 19 19:07:19.805255 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Wed Feb 19 19:07:20.459596 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
