@@ -11,7 +11,7 @@
         $user_name = "Гость";
         //$user_access = 0;
     }
-    include 'templ/index_templ.html';
+    include 'templ/index.html';
     
    
     
