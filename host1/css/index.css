@@ -1,0 +1,74 @@
+body, html{
+    margin:0px;
+    padding:0px;
+}
+#base{
+    width:1000px;
+    margin:0 auto;
+}
+#header{
+    background-color:#E6E6FA;
+    height:100px;
+}
+#login{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    float: right;
+}
+
+#left{
+    background-color:#54FF9F;
+    width:200px;
+    height:600px;
+    float:left;
+}       
+#content{
+    background-color:#DAA520;
+    Margin-left:200px;
+    height:600px;
+}
+#floor{
+    background-color:#DA70D6;
+}
+body {
+    background:#F0E68C}
+#shadow { 
+    background: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 50;
+    display:none;
+    top:0;
+    left:0;
+}
+
+#window{
+    position:fixed;
+    width:600px;
+    height:300px;
+    left:50%;
+    top:50%;
+    margin: 0 auto;
+    margin-left:-400px;
+    margin-top:-250px;
+    border:1px solid black;
+    display:none;
+    background:white;
+    z-index:99;
+    box-shadow: 0px 0px 10px #000000;
+}
+#close{
+    float: right;
+}
+#win_left{
+    
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left:auto; 
+    margin-right:auto;
+}
+

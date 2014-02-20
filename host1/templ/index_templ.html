@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+                    
+-->
+<html>
+    <head>
+        <title><?=$title?></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/loginBar.js"></script>
+    </head>
+    <body>
+        <div id="shadow"></div>
+        <div id="window">
+            <div id="win_left">
+                <a href="#" id="close" onClick="hideWin()">X</a><br><br>
+                <input type="text" id="form_login"><br>
+                <input type="password" id="form_pass"><br>
+                <input type="submit" value="Авторизоваться" id="enter" onclick="autorize()">
+            </div>
+        </div>
+        <div id="base">
+
+            <div id="header">
+                <div id="login">
+                    Вы зашли как: <form id="user_name"><?=$user_name?></form>
+                    <?php if($user_id!=null): ?>
+                    <a href="relog.php">Выйти</a>
+                    <?php else: ?>
+                    <a href="#" id="open" onClick="slideWin()">Войти</a>
+                    <?php endif; ?>
+                </div>
+            </div>
+
+            <div id="left">
+                <font size="+1">
+                <ul>
+                    <li><a href="add_order.php">Ссыль 1</a>
+                    <li><a href="#">Ссыль 2</a>
+                    <li><a href="#">Ссыль 3</a>
+                </ul>
+                </font>
+            </div>
+
+            <div id="content">
+             
+
+            
+
+        </div>
+
+        <div id="floor"></div>
+        
+        
+        
+    </body>
+</html>

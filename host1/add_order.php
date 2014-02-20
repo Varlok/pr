@@ -11,8 +11,9 @@
         $user_name = "Гость";
         //$user_access = 0;
     }
-    include 'templ/index_templ.html';
-    
-   
-    
+    include 'templ/add_order_templ.html';
+
+
+
 ?>
+

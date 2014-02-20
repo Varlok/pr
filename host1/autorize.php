@@ -20,17 +20,19 @@
     curl_close($ch);
    // echo $result;
     $res = unserialize($result);
-    
-    //$res -> setFetchMode(PDO::FETCH_ASSOC);
-    foreach($res as $row)//-> fetch(PDO::FETCH_ASSOC))
-    { 
-        $_SESSION['user_id'] = $row['id'];
-        $_SESSION['login'] = $row['login'];
-        
+    if(!empty($res)){
+        foreach($res as $row)
+        { 
+            $_SESSION['user_id'] = $row['id'];
+            $_SESSION['user_name'] = $row['login'];  
+        }
+        echo $_SESSION['user_name'];
     }
-    echo $_SESSION['login'];
+    else{
+        echo "костыльКОЛЕСОкостыль";
+    }
 
-    header('Location: index.php');
+    
     
     
     
