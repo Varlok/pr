@@ -2,7 +2,7 @@
     $login = $_POST['login'];
     $pass = $_POST['pass'];
 
-    $db = new PDO('mysql:host=localhost;dbname=db','root','earthn2160');
+    $db = new PDO('mysql:host=localhost;dbname=db','root','earthn');
     $db1 = $db -> prepare("select * from user where login = :login and pass = :pass");
     $db1 -> bindParam(':login',$login);
     $db1 -> bindParam(':pass',$pass);

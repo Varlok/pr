@@ -118,3 +118,96 @@
 [Wed Feb 19 18:27:51.327351 2014] [:error] [pid 4621] [client 127.0.0.1:44217] PHP Warning:  Invalid argument supplied for foreach() in /home/varlok/Apache/host1/get_user.php on line 20
 [Wed Feb 19 19:04:21.388542 2014] [:error] [pid 4625] [client 127.0.0.1:44274] PHP Notice:  Undefined index: user in /home/varlok/Apache/host1/get_user.php on line 10
 [Wed Feb 19 19:04:23.188181 2014] [:error] [pid 4625] [client 127.0.0.1:44274] PHP Notice:  Undefined index: user in /home/varlok/Apache/host1/get_user.php on line 10
+[Fri Feb 21 14:20:10.802971 2014] [:error] [pid 1148] [client 127.0.0.1:47403] PHP Notice:  Use of undefined constant index - assumed 'index' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:20:10.838679 2014] [:error] [pid 1148] [client 127.0.0.1:47403] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:20:31.389328 2014] [:error] [pid 2146] [client 127.0.0.1:47409] PHP Notice:  Use of undefined constant index - assumed 'index' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:20:31.389478 2014] [:error] [pid 2146] [client 127.0.0.1:47409] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:20:56.521391 2014] [:error] [pid 1150] [client 127.0.0.1:47415] PHP Notice:  Use of undefined constant index - assumed 'index' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:20:56.521538 2014] [:error] [pid 1150] [client 127.0.0.1:47415] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/
+[Fri Feb 21 14:37:20.529569 2014] [:error] [pid 1150] [client 127.0.0.1:47444] script '/home/varlok/Apache/host1/show_order.php' not found or unable to stat
+[Fri Feb 21 14:42:58.410849 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:42:58.411077 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:42:58.411137 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:43:00.420744 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:43:00.420923 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:43:00.420979 2014] [:error] [pid 1151] [client 127.0.0.1:47451] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:47:41.628393 2014] [:error] [pid 2145] [client 127.0.0.1:47457] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:47:41.628649 2014] [:error] [pid 2145] [client 127.0.0.1:47457] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:47:41.628721 2014] [:error] [pid 2145] [client 127.0.0.1:47457] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:49:39.821980 2014] [:error] [pid 1148] [client 127.0.0.1:47462] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:49:39.822199 2014] [:error] [pid 1148] [client 127.0.0.1:47462] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 14:49:39.822282 2014] [:error] [pid 1148] [client 127.0.0.1:47462] PHP Notice:  Undefined index: count in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.919223 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.960955 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961028 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961069 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961101 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961134 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961169 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961201 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:11.961234 2014] [:error] [pid 1131] [client 127.0.0.1:34004] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.436873 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437006 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437049 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437092 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437124 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437158 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437193 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437225 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:26:13.437269 2014] [:error] [pid 2731] [client 127.0.0.1:34007] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25, referer: http://host1/
+[Fri Feb 21 17:29:26.378079 2014] [:error] [pid 2732] [client 127.0.0.1:34010] script '/home/varlok/Apache/host1/show_order.php' not found or unable to stat
+[Fri Feb 21 17:29:45.422110 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422306 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422377 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422444 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422491 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422539 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422594 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422704 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:29:45.422781 2014] [:error] [pid 2737] [client 127.0.0.1:34011] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 25
+[Fri Feb 21 17:30:44.411129 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Array to string conversion in /home/varlok/Apache/host1/add_order.php on line 26
+[Fri Feb 21 17:30:44.411410 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411471 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411517 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411578 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411621 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411665 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411709 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411750 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:30:44.411798 2014] [:error] [pid 2734] [client 127.0.0.1:34013] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.024722 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.024896 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.024949 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025004 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025102 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025152 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025201 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_house in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025240 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:42:46.025284 2014] [:error] [pid 2735] [client 127.0.0.1:34043] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.545823 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.545985 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.546059 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.546105 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.546159 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:52:11.546206 2014] [:error] [pid 1132] [client 127.0.0.1:34075] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929077 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929246 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929308 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929357 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929412 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_goods in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:18.929460 2014] [:error] [pid 1131] [client 127.0.0.1:34080] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:54.994425 2014] [:error] [pid 1134] [client 127.0.0.1:34087] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:54.994552 2014] [:error] [pid 1134] [client 127.0.0.1:34087] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:53:54.994594 2014] [:error] [pid 1134] [client 127.0.0.1:34087] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:56:43.204973 2014] [:error] [pid 1131] [client 127.0.0.1:34093] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:56:43.205156 2014] [:error] [pid 1131] [client 127.0.0.1:34093] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:56:43.205203 2014] [:error] [pid 1131] [client 127.0.0.1:34093] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:10.140734 2014] [:error] [pid 2734] [client 127.0.0.1:34099] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:10.140940 2014] [:error] [pid 2734] [client 127.0.0.1:34099] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:10.141003 2014] [:error] [pid 2734] [client 127.0.0.1:34099] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:12.033004 2014] [:error] [pid 1135] [client 127.0.0.1:34100] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:12.033201 2014] [:error] [pid 1135] [client 127.0.0.1:34100] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:12.033261 2014] [:error] [pid 1135] [client 127.0.0.1:34100] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:25.387214 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:25.387378 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Fri Feb 21 17:57:25.387443 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29

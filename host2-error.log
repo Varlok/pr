@@ -15,3 +15,6 @@
 [Wed Feb 19 19:07:18.817078 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
 [Wed Feb 19 19:07:19.805255 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
 [Wed Feb 19 19:07:20.459596 2014] [:error] [pid 4622] [client 127.0.0.1:44295] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Wed Feb 19 19:26:16.409221 2014] [:error] [pid 4624] [client 127.0.0.1:44316] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Fri Feb 21 14:17:05.594937 2014] [:error] [pid 1149] [client 127.0.0.1:47389] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Fri Feb 21 15:23:42.378350 2014] [:error] [pid 1132] [client 127.0.0.1:33797] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
