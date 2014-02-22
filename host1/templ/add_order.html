@@ -22,7 +22,7 @@
         </div>
         <div id="base">
 
-            <div id="header">
+            <div id="header"><font size="6">Система управления поставками в гос. организации</font>
                 <div id="login">
                     Вы зашли как: <form id="user_name"><?=$user_name?></form>
                     <?php if($user_id!=null): ?>
@@ -37,8 +37,8 @@
                 <font size="+1">
                 <ul>
                     <li><a href="add_order.php"><b>Ссыль 1</b></a>
-                    <li><a href="#">Ссыль 2</a>
-                    <li><a href="#">Ссыль 3</a>
+                    <li><a href="/index.php">Ссыль 2</a>
+                    
                 </ul>
                 </font>
             </div>
@@ -47,6 +47,7 @@
                 <font>Сейчас доступны:</font><br>
                 <table id="order_avalible" border="2" width=85%>
                     <?=$table?>
+                    <tr><td></td><td><input type="text" id="goods"></td><td><input type="text" id="count"></td><td><input type="text" id="house"></td><td><input type="text" id="groupe"></td><td><button onclick="addOrder()">Отправить</button></td></tr>
                 </table>
             
 

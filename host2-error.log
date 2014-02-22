@@ -18,3 +18,270 @@
 [Wed Feb 19 19:26:16.409221 2014] [:error] [pid 4624] [client 127.0.0.1:44316] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
 [Fri Feb 21 14:17:05.594937 2014] [:error] [pid 1149] [client 127.0.0.1:47389] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
 [Fri Feb 21 15:23:42.378350 2014] [:error] [pid 1132] [client 127.0.0.1:33797] PHP Notice:  Undefined index: user in /home/varlok/Apache/host2/api_get_user.php on line 2
+[Sat Feb 22 08:40:17.160019 2014] [:error] [pid 1124] [client 127.0.0.1:56213] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:40:43.122451 2014] [:error] [pid 2955] [client 127.0.0.1:56274] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:04.809214 2014] [:error] [pid 2956] [client 127.0.0.1:56287] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:16.676557 2014] [:error] [pid 1125] [client 127.0.0.1:56288] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:38.525245 2014] [:error] [pid 3010] [client 127.0.0.1:56294] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:39.975518 2014] [:error] [pid 2956] [client 127.0.0.1:56295] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:46.866203 2014] [:error] [pid 3009] [client 127.0.0.1:56302] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:47.306769 2014] [:error] [pid 1125] [client 127.0.0.1:56303] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:41:48.878110 2014] [:error] [pid 2955] [client 127.0.0.1:56304] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:42:04.341260 2014] [:error] [pid 1124] [client 127.0.0.1:56311] script '/home/varlok/Apache/host2/api_delete_order.php' not found or unable to stat
+[Sat Feb 22 08:42:52.942658 2014] [:error] [pid 1125] [client 127.0.0.1:56322] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:42:56.802097 2014] [:error] [pid 1124] [client 127.0.0.1:56324] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:43:01.271980 2014] [:error] [pid 2955] [client 127.0.0.1:56327] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:43:25.805433 2014] [:error] [pid 2937] [client 127.0.0.1:56336] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:43:31.939277 2014] [:error] [pid 3011] [client 127.0.0.1:56338] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:44:10.767188 2014] [:error] [pid 2955] [client 127.0.0.1:56347] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'pdobase'' in /home/varlok/Apache/host2/api_delete_order.php:4\nStack trace:\n#0 /home/varlok/Apache/host2/api_delete_order.php(4): PDO->__construct('mysql:host=loca...', 'root', 'earthn')\n#1 {main}\n  thrown in /home/varlok/Apache/host2/api_delete_order.php on line 4
+[Sat Feb 22 08:49:41.179216 2014] [:error] [pid 2956] [client 127.0.0.1:56401] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:50:14.229542 2014] [:error] [pid 1124] [client 127.0.0.1:56406] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:50:19.323143 2014] [:error] [pid 3010] [client 127.0.0.1:56407] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:50:47.834462 2014] [:error] [pid 1125] [client 127.0.0.1:56423] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:52:52.764999 2014] [:error] [pid 3011] [client 127.0.0.1:56432] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:57:29.543182 2014] [:error] [pid 3011] [client 127.0.0.1:56445] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:57:38.262352 2014] [:error] [pid 2955] [client 127.0.0.1:56446] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 08:57:41.817165 2014] [:error] [pid 3010] [client 127.0.0.1:56455] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 09:03:09.052777 2014] [:error] [pid 3010] [client 127.0.0.1:56487] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_delete_order.php on line 6
+[Sat Feb 22 09:09:29.822717 2014] [:error] [pid 3011] [client 127.0.0.1:56554] PHP Notice:  Undefined index: id in /home/varlok/Apache/host2/api_delete_order.php on line 3
+[Sat Feb 22 10:45:44.149901 2014] [:error] [pid 2956] [client 127.0.0.1:56744] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/varlok/Apache/host2/api_new_order.php on line 14
+[Sat Feb 22 10:45:48.397566 2014] [:error] [pid 1126] [client 127.0.0.1:56750] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/varlok/Apache/host2/api_new_order.php on line 14
+[Sat Feb 22 10:45:55.598431 2014] [:error] [pid 3011] [client 127.0.0.1:56752] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/varlok/Apache/host2/api_new_order.php on line 14
+[Sat Feb 22 10:47:34.175044 2014] [:error] [pid 1122] [client 127.0.0.1:56760] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/varlok/Apache/host2/api_new_order.php on line 14
+[Sat Feb 22 10:50:44.054495 2014] [:error] [pid 4610] [client 127.0.0.1:56769] script '/home/varlok/Apache/host2/api_new_oreder.php' not found or unable to stat
+[Sat Feb 22 10:50:52.214316 2014] [:error] [pid 4599] [client 127.0.0.1:56770] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:50:52.214496 2014] [:error] [pid 4599] [client 127.0.0.1:56770] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:50:52.214548 2014] [:error] [pid 4599] [client 127.0.0.1:56770] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:50:52.214592 2014] [:error] [pid 4599] [client 127.0.0.1:56770] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:50:52.215405 2014] [:error] [pid 4599] [client 127.0.0.1:56770] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:50:53.788001 2014] [:error] [pid 1126] [client 127.0.0.1:56771] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:50:53.788177 2014] [:error] [pid 1126] [client 127.0.0.1:56771] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:50:53.788235 2014] [:error] [pid 1126] [client 127.0.0.1:56771] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:50:53.788284 2014] [:error] [pid 1126] [client 127.0.0.1:56771] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:50:53.789488 2014] [:error] [pid 1126] [client 127.0.0.1:56771] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:50:59.688848 2014] [:error] [pid 2956] [client 127.0.0.1:56773] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:50:59.688978 2014] [:error] [pid 2956] [client 127.0.0.1:56773] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:50:59.689015 2014] [:error] [pid 2956] [client 127.0.0.1:56773] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:50:59.689049 2014] [:error] [pid 2956] [client 127.0.0.1:56773] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:50:59.690084 2014] [:error] [pid 2956] [client 127.0.0.1:56773] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:51:20.313850 2014] [:error] [pid 2956] [client 127.0.0.1:56793] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:51:20.313952 2014] [:error] [pid 2956] [client 127.0.0.1:56793] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:51:20.313983 2014] [:error] [pid 2956] [client 127.0.0.1:56793] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:51:20.314013 2014] [:error] [pid 2956] [client 127.0.0.1:56793] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:51:20.314666 2014] [:error] [pid 2956] [client 127.0.0.1:56793] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:51:22.862572 2014] [:error] [pid 3009] [client 127.0.0.1:56794] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:51:22.862681 2014] [:error] [pid 3009] [client 127.0.0.1:56794] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:51:22.862713 2014] [:error] [pid 3009] [client 127.0.0.1:56794] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:51:22.862743 2014] [:error] [pid 3009] [client 127.0.0.1:56794] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:51:22.863424 2014] [:error] [pid 3009] [client 127.0.0.1:56794] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:51:23.289210 2014] [:error] [pid 2937] [client 127.0.0.1:56795] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:51:23.289306 2014] [:error] [pid 2937] [client 127.0.0.1:56795] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:51:23.289338 2014] [:error] [pid 2937] [client 127.0.0.1:56795] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:51:23.289369 2014] [:error] [pid 2937] [client 127.0.0.1:56795] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:51:23.290204 2014] [:error] [pid 2937] [client 127.0.0.1:56795] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:51:23.471902 2014] [:error] [pid 1122] [client 127.0.0.1:56796] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:51:23.472009 2014] [:error] [pid 1122] [client 127.0.0.1:56796] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:51:23.472082 2014] [:error] [pid 1122] [client 127.0.0.1:56796] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:51:23.472111 2014] [:error] [pid 1122] [client 127.0.0.1:56796] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:51:23.472877 2014] [:error] [pid 1122] [client 127.0.0.1:56796] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:54:38.969545 2014] [:error] [pid 2956] [client 127.0.0.1:56798] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:54:38.969688 2014] [:error] [pid 2956] [client 127.0.0.1:56798] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:54:38.969733 2014] [:error] [pid 2956] [client 127.0.0.1:56798] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:54:38.969775 2014] [:error] [pid 2956] [client 127.0.0.1:56798] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:54:38.970734 2014] [:error] [pid 2956] [client 127.0.0.1:56798] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:54:40.909840 2014] [:error] [pid 3009] [client 127.0.0.1:56799] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:54:40.909970 2014] [:error] [pid 3009] [client 127.0.0.1:56799] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:54:40.910018 2014] [:error] [pid 3009] [client 127.0.0.1:56799] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:54:40.910062 2014] [:error] [pid 3009] [client 127.0.0.1:56799] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:54:40.910924 2014] [:error] [pid 3009] [client 127.0.0.1:56799] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:54:48.794605 2014] [:error] [pid 2937] [client 127.0.0.1:56800] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:54:48.794747 2014] [:error] [pid 2937] [client 127.0.0.1:56800] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:54:48.794799 2014] [:error] [pid 2937] [client 127.0.0.1:56800] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:54:48.794848 2014] [:error] [pid 2937] [client 127.0.0.1:56800] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:55:28.657223 2014] [:error] [pid 2955] [client 127.0.0.1:56802] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:55:28.657348 2014] [:error] [pid 2955] [client 127.0.0.1:56802] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:55:28.657394 2014] [:error] [pid 2955] [client 127.0.0.1:56802] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:55:28.657436 2014] [:error] [pid 2955] [client 127.0.0.1:56802] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:55:28.658228 2014] [:error] [pid 2955] [client 127.0.0.1:56802] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:55:29.490895 2014] [:error] [pid 3011] [client 127.0.0.1:56803] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:55:29.491076 2014] [:error] [pid 3011] [client 127.0.0.1:56803] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:55:29.491124 2014] [:error] [pid 3011] [client 127.0.0.1:56803] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:55:29.491163 2014] [:error] [pid 3011] [client 127.0.0.1:56803] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:55:29.491991 2014] [:error] [pid 3011] [client 127.0.0.1:56803] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:55:29.661773 2014] [:error] [pid 4610] [client 127.0.0.1:56804] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:55:29.661936 2014] [:error] [pid 4610] [client 127.0.0.1:56804] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:55:29.661981 2014] [:error] [pid 4610] [client 127.0.0.1:56804] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:55:29.662021 2014] [:error] [pid 4610] [client 127.0.0.1:56804] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:55:29.662855 2014] [:error] [pid 4610] [client 127.0.0.1:56804] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 10
+[Sat Feb 22 10:55:52.800953 2014] [:error] [pid 4599] [client 127.0.0.1:56806] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:55:52.801082 2014] [:error] [pid 4599] [client 127.0.0.1:56806] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:55:52.801124 2014] [:error] [pid 4599] [client 127.0.0.1:56806] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:55:52.801164 2014] [:error] [pid 4599] [client 127.0.0.1:56806] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:55:52.801968 2014] [:error] [pid 4599] [client 127.0.0.1:56806] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:19.712148 2014] [:error] [pid 2956] [client 127.0.0.1:56808] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:19.712290 2014] [:error] [pid 2956] [client 127.0.0.1:56808] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:19.712449 2014] [:error] [pid 2956] [client 127.0.0.1:56808] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:19.712527 2014] [:error] [pid 2956] [client 127.0.0.1:56808] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:19.713463 2014] [:error] [pid 2956] [client 127.0.0.1:56808] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:20.470121 2014] [:error] [pid 3009] [client 127.0.0.1:56809] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:20.470211 2014] [:error] [pid 3009] [client 127.0.0.1:56809] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:20.470243 2014] [:error] [pid 3009] [client 127.0.0.1:56809] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:20.470273 2014] [:error] [pid 3009] [client 127.0.0.1:56809] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:20.470936 2014] [:error] [pid 3009] [client 127.0.0.1:56809] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:20.886386 2014] [:error] [pid 2937] [client 127.0.0.1:56810] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:20.886517 2014] [:error] [pid 2937] [client 127.0.0.1:56810] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:20.886566 2014] [:error] [pid 2937] [client 127.0.0.1:56810] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:20.886614 2014] [:error] [pid 2937] [client 127.0.0.1:56810] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:20.887589 2014] [:error] [pid 2937] [client 127.0.0.1:56810] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:21.135535 2014] [:error] [pid 1122] [client 127.0.0.1:56811] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:21.135645 2014] [:error] [pid 1122] [client 127.0.0.1:56811] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:21.135674 2014] [:error] [pid 1122] [client 127.0.0.1:56811] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:21.135703 2014] [:error] [pid 1122] [client 127.0.0.1:56811] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:21.136539 2014] [:error] [pid 1122] [client 127.0.0.1:56811] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:25.662130 2014] [:error] [pid 2937] [client 127.0.0.1:56812] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:25.662274 2014] [:error] [pid 2937] [client 127.0.0.1:56812] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:25.662325 2014] [:error] [pid 2937] [client 127.0.0.1:56812] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:25.662374 2014] [:error] [pid 2937] [client 127.0.0.1:56812] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:25.663337 2014] [:error] [pid 2937] [client 127.0.0.1:56812] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:28.087301 2014] [:error] [pid 1122] [client 127.0.0.1:56821] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:28.087428 2014] [:error] [pid 1122] [client 127.0.0.1:56821] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:28.087477 2014] [:error] [pid 1122] [client 127.0.0.1:56821] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:28.087525 2014] [:error] [pid 1122] [client 127.0.0.1:56821] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:28.089582 2014] [:error] [pid 1122] [client 127.0.0.1:56821] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:55.611691 2014] [:error] [pid 2956] [client 127.0.0.1:56823] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:55.611827 2014] [:error] [pid 2956] [client 127.0.0.1:56823] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:55.611879 2014] [:error] [pid 2956] [client 127.0.0.1:56823] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:55.611979 2014] [:error] [pid 2956] [client 127.0.0.1:56823] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:55.612985 2014] [:error] [pid 2956] [client 127.0.0.1:56823] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:56.397401 2014] [:error] [pid 3009] [client 127.0.0.1:56824] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:56.397498 2014] [:error] [pid 3009] [client 127.0.0.1:56824] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:56.397528 2014] [:error] [pid 3009] [client 127.0.0.1:56824] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:56.397557 2014] [:error] [pid 3009] [client 127.0.0.1:56824] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:56.398254 2014] [:error] [pid 3009] [client 127.0.0.1:56824] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:56.823051 2014] [:error] [pid 2937] [client 127.0.0.1:56825] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:56.823178 2014] [:error] [pid 2937] [client 127.0.0.1:56825] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:56.823228 2014] [:error] [pid 2937] [client 127.0.0.1:56825] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:56.823275 2014] [:error] [pid 2937] [client 127.0.0.1:56825] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:56.824242 2014] [:error] [pid 2937] [client 127.0.0.1:56825] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:56.997365 2014] [:error] [pid 1122] [client 127.0.0.1:56826] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:56.997505 2014] [:error] [pid 1122] [client 127.0.0.1:56826] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:56.997555 2014] [:error] [pid 1122] [client 127.0.0.1:56826] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:56.997603 2014] [:error] [pid 1122] [client 127.0.0.1:56826] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:56.998524 2014] [:error] [pid 1122] [client 127.0.0.1:56826] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:56:57.171722 2014] [:error] [pid 4610] [client 127.0.0.1:56827] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:56:57.171881 2014] [:error] [pid 4610] [client 127.0.0.1:56827] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:56:57.171932 2014] [:error] [pid 4610] [client 127.0.0.1:56827] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:56:57.171976 2014] [:error] [pid 4610] [client 127.0.0.1:56827] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:56:57.173001 2014] [:error] [pid 4610] [client 127.0.0.1:56827] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:57:05.276164 2014] [:error] [pid 4599] [client 127.0.0.1:56828] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:57:05.276433 2014] [:error] [pid 4599] [client 127.0.0.1:56828] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:57:05.276500 2014] [:error] [pid 4599] [client 127.0.0.1:56828] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:57:05.276542 2014] [:error] [pid 4599] [client 127.0.0.1:56828] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:57:05.277419 2014] [:error] [pid 4599] [client 127.0.0.1:56828] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:59:37.664624 2014] [:error] [pid 1125] [client 127.0.0.1:56830] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:59:37.664780 2014] [:error] [pid 1125] [client 127.0.0.1:56830] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:59:37.664833 2014] [:error] [pid 1125] [client 127.0.0.1:56830] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:59:37.664884 2014] [:error] [pid 1125] [client 127.0.0.1:56830] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:59:37.665831 2014] [:error] [pid 1125] [client 127.0.0.1:56830] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 10:59:42.773411 2014] [:error] [pid 1126] [client 127.0.0.1:56831] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 10:59:42.773601 2014] [:error] [pid 1126] [client 127.0.0.1:56831] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 10:59:42.773675 2014] [:error] [pid 1126] [client 127.0.0.1:56831] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 10:59:42.773742 2014] [:error] [pid 1126] [client 127.0.0.1:56831] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 10:59:42.774875 2014] [:error] [pid 1126] [client 127.0.0.1:56831] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:00:26.507858 2014] [:error] [pid 1122] [client 127.0.0.1:56848] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:00:26.507996 2014] [:error] [pid 1122] [client 127.0.0.1:56848] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:00:26.508048 2014] [:error] [pid 1122] [client 127.0.0.1:56848] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:00:26.508097 2014] [:error] [pid 1122] [client 127.0.0.1:56848] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:01:46.428669 2014] [:error] [pid 1126] [client 127.0.0.1:56860] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:01:46.428810 2014] [:error] [pid 1126] [client 127.0.0.1:56860] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:01:46.428863 2014] [:error] [pid 1126] [client 127.0.0.1:56860] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:01:46.428912 2014] [:error] [pid 1126] [client 127.0.0.1:56860] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:01:46.429912 2014] [:error] [pid 1126] [client 127.0.0.1:56860] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:13:43.355067 2014] [:error] [pid 4599] [client 127.0.0.1:56871] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:13:43.355205 2014] [:error] [pid 4599] [client 127.0.0.1:56871] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:13:43.355235 2014] [:error] [pid 4599] [client 127.0.0.1:56871] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:13:43.355264 2014] [:error] [pid 4599] [client 127.0.0.1:56871] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:13:43.355937 2014] [:error] [pid 4599] [client 127.0.0.1:56871] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:14:12.784755 2014] [:error] [pid 2937] [client 127.0.0.1:56874] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:14:12.784884 2014] [:error] [pid 2937] [client 127.0.0.1:56874] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:14:12.784935 2014] [:error] [pid 2937] [client 127.0.0.1:56874] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:14:12.784983 2014] [:error] [pid 2937] [client 127.0.0.1:56874] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:14:12.785949 2014] [:error] [pid 2937] [client 127.0.0.1:56874] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:14:58.338128 2014] [:error] [pid 5770] [client 127.0.0.1:56876] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:14:58.338291 2014] [:error] [pid 5770] [client 127.0.0.1:56876] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:14:58.338343 2014] [:error] [pid 5770] [client 127.0.0.1:56876] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:14:58.338393 2014] [:error] [pid 5770] [client 127.0.0.1:56876] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:14:58.339326 2014] [:error] [pid 5770] [client 127.0.0.1:56876] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:15:54.437844 2014] [:error] [pid 2955] [client 127.0.0.1:56887] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:15:54.437994 2014] [:error] [pid 2955] [client 127.0.0.1:56887] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:15:54.438047 2014] [:error] [pid 2955] [client 127.0.0.1:56887] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:15:54.438099 2014] [:error] [pid 2955] [client 127.0.0.1:56887] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:15:54.439065 2014] [:error] [pid 2955] [client 127.0.0.1:56887] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:17:18.989011 2014] [:error] [pid 4610] [client 127.0.0.1:56901] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:17:18.989156 2014] [:error] [pid 4610] [client 127.0.0.1:56901] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:17:18.989207 2014] [:error] [pid 4610] [client 127.0.0.1:56901] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:17:18.989257 2014] [:error] [pid 4610] [client 127.0.0.1:56901] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:17:18.990232 2014] [:error] [pid 4610] [client 127.0.0.1:56901] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:20:40.381933 2014] [:error] [pid 1122] [client 127.0.0.1:56903] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:20:40.382077 2014] [:error] [pid 1122] [client 127.0.0.1:56903] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:20:40.382130 2014] [:error] [pid 1122] [client 127.0.0.1:56903] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:20:40.382179 2014] [:error] [pid 1122] [client 127.0.0.1:56903] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:20:40.383124 2014] [:error] [pid 1122] [client 127.0.0.1:56903] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/varlok/Apache/host2/api_new_order.php on line 11
+[Sat Feb 22 11:32:10.667735 2014] [:error] [pid 4610] [client 127.0.0.1:56956] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:32:10.667839 2014] [:error] [pid 4610] [client 127.0.0.1:56956] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:32:10.667870 2014] [:error] [pid 4610] [client 127.0.0.1:56956] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:32:10.667900 2014] [:error] [pid 4610] [client 127.0.0.1:56956] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:32:16.650278 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:32:16.650421 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:32:16.650474 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:32:16.650525 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:32:17.616908 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:32:17.617022 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:32:17.617066 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:32:17.617108 2014] [:error] [pid 2955] [client 127.0.0.1:56957] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:34:25.743760 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:34:25.743908 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:34:25.743959 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:34:25.744009 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:34:30.028943 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:34:30.029125 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:34:30.029175 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:34:30.029223 2014] [:error] [pid 3011] [client 127.0.0.1:56973] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:35:40.021301 2014] [:error] [pid 6005] [client 127.0.0.1:56983] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:35:40.021469 2014] [:error] [pid 6005] [client 127.0.0.1:56983] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:35:40.021513 2014] [:error] [pid 6005] [client 127.0.0.1:56983] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:35:40.021557 2014] [:error] [pid 6005] [client 127.0.0.1:56983] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:53:18.584260 2014] [:error] [pid 1274] [client 127.0.0.1:50447] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:53:18.606713 2014] [:error] [pid 1274] [client 127.0.0.1:50447] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:53:18.606796 2014] [:error] [pid 1274] [client 127.0.0.1:50447] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:53:18.606840 2014] [:error] [pid 1274] [client 127.0.0.1:50447] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:53:27.594567 2014] [:error] [pid 1270] [client 127.0.0.1:50524] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:53:27.594720 2014] [:error] [pid 1270] [client 127.0.0.1:50524] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:53:27.594761 2014] [:error] [pid 1270] [client 127.0.0.1:50524] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:53:27.594803 2014] [:error] [pid 1270] [client 127.0.0.1:50524] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:53:39.320143 2014] [:error] [pid 1271] [client 127.0.0.1:50525] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:53:39.320333 2014] [:error] [pid 1271] [client 127.0.0.1:50525] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:53:39.320381 2014] [:error] [pid 1271] [client 127.0.0.1:50525] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:53:39.320422 2014] [:error] [pid 1271] [client 127.0.0.1:50525] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:57:22.942384 2014] [:error] [pid 1271] [client 127.0.0.1:50593] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:57:22.942486 2014] [:error] [pid 1271] [client 127.0.0.1:50593] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:57:22.942517 2014] [:error] [pid 1271] [client 127.0.0.1:50593] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:57:22.942547 2014] [:error] [pid 1271] [client 127.0.0.1:50593] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:57:22.989170 2014] [:error] [pid 1271] [client 127.0.0.1:50593] PHP Notice:  Use of undefined constant qwe2 - assumed 'qwe2' in /home/varlok/Apache/host2/api_new_order.php on line 12
+[Sat Feb 22 11:57:34.453359 2014] [:error] [pid 1270] [client 127.0.0.1:50594] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:57:34.453524 2014] [:error] [pid 1270] [client 127.0.0.1:50594] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:57:34.453597 2014] [:error] [pid 1270] [client 127.0.0.1:50594] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:57:34.453668 2014] [:error] [pid 1270] [client 127.0.0.1:50594] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:57:34.454731 2014] [:error] [pid 1270] [client 127.0.0.1:50594] PHP Notice:  Use of undefined constant qwe2 - assumed 'qwe2' in /home/varlok/Apache/host2/api_new_order.php on line 12
+[Sat Feb 22 11:58:53.765738 2014] [:error] [pid 1272] [client 127.0.0.1:50613] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:58:53.765854 2014] [:error] [pid 1272] [client 127.0.0.1:50613] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:58:53.765886 2014] [:error] [pid 1272] [client 127.0.0.1:50613] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:58:53.765916 2014] [:error] [pid 1272] [client 127.0.0.1:50613] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 11:59:30.448721 2014] [:error] [pid 1274] [client 127.0.0.1:50629] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 11:59:30.448869 2014] [:error] [pid 1274] [client 127.0.0.1:50629] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 11:59:30.448921 2014] [:error] [pid 1274] [client 127.0.0.1:50629] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 11:59:30.448971 2014] [:error] [pid 1274] [client 127.0.0.1:50629] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6
+[Sat Feb 22 13:47:12.436262 2014] [:error] [pid 1274] [client 127.0.0.1:50912] PHP Notice:  Undefined index: goods in /home/varlok/Apache/host2/api_new_order.php on line 3
+[Sat Feb 22 13:47:12.436455 2014] [:error] [pid 1274] [client 127.0.0.1:50912] PHP Notice:  Undefined index: count in /home/varlok/Apache/host2/api_new_order.php on line 4
+[Sat Feb 22 13:47:12.436510 2014] [:error] [pid 1274] [client 127.0.0.1:50912] PHP Notice:  Undefined index: house in /home/varlok/Apache/host2/api_new_order.php on line 5
+[Sat Feb 22 13:47:12.436556 2014] [:error] [pid 1274] [client 127.0.0.1:50912] PHP Notice:  Undefined index: groupe in /home/varlok/Apache/host2/api_new_order.php on line 6

@@ -211,3 +211,15 @@
 [Fri Feb 21 17:57:25.387214 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
 [Fri Feb 21 17:57:25.387378 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
 [Fri Feb 21 17:57:25.387443 2014] [:error] [pid 1132] [client 127.0.0.1:34106] PHP Notice:  Undefined index: id_groupe in /home/varlok/Apache/host1/add_order.php on line 29
+[Sat Feb 22 08:41:04.745768 2014] [:error] [pid 3009] [client 127.0.0.1:56281] PHP Notice:  Undefined index: id in /home/varlok/Apache/host1/delete_order.php on line 10
+[Sat Feb 22 08:41:16.670154 2014] [:error] [pid 2955] [client 127.0.0.1:56282] PHP Notice:  Undefined index: id in /home/varlok/Apache/host1/delete_order.php on line 10
+[Sat Feb 22 08:41:39.974274 2014] [:error] [pid 1126] [client 127.0.0.1:56290] PHP Notice:  Undefined index: id in /home/varlok/Apache/host1/delete_order.php on line 10
+[Sat Feb 22 08:41:46.865297 2014] [:error] [pid 1126] [client 127.0.0.1:56290] PHP Notice:  Undefined index: id in /home/varlok/Apache/host1/delete_order.php on line 10
+[Sat Feb 22 12:13:04.425280 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Use of undefined constant index - assumed 'index' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/add_order.php
+[Sat Feb 22 12:13:04.466406 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/add_order.php
+[Sat Feb 22 12:13:06.708397 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Undefined variable: user_name in /home/varlok/Apache/host1/templ/add_order.html on line 27, referer: http://host1/index.php
+[Sat Feb 22 12:13:06.708554 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Undefined variable: user_id in /home/varlok/Apache/host1/templ/add_order.html on line 28, referer: http://host1/index.php
+[Sat Feb 22 12:13:08.535702 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Undefined variable: user_name in /home/varlok/Apache/host1/templ/add_order.html on line 27, referer: http://host1/index.php
+[Sat Feb 22 12:13:08.535818 2014] [:error] [pid 2918] [client 127.0.0.1:50735] PHP Notice:  Undefined variable: user_id in /home/varlok/Apache/host1/templ/add_order.html on line 28, referer: http://host1/index.php
+[Sat Feb 22 12:47:00.201265 2014] [:error] [pid 2939] [client 127.0.0.1:50771] PHP Notice:  Use of undefined constant index - assumed 'index' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/index.php
+[Sat Feb 22 12:47:00.201494 2014] [:error] [pid 2939] [client 127.0.0.1:50771] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/varlok/Apache/host1/relog.php on line 6, referer: http://host1/index.php
